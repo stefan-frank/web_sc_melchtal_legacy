@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html ng-app="events" lang="de">
+	<head>
+		<title>Ski- und Wanderclub Melchtal - Das Programm</title>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<script type="text/javascript" src="https://code.angularjs.org/1.2.26/angular.js"></script>
+		<link href="scm.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/jahresprogramm.css" rel="stylesheet" type="text/css" media="all" />
+		<meta name="description" content="Programm, Veranstaltungen, SC-Melchtal." />
+		<meta name="keywords" content="skiclub, melchtal" />
+		<meta name="author" content="Kurt Zumbrunn, CH-6068 Melchsee-Frutt" />
+		<meta name="design" content="adaptiert von Sascha Lichtenstein, www.lichtenart.com" />
+		<meta name="date" content="2014-01-02" />
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script>
+			(function(i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] ||
+				function() {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+			ga('create', 'UA-47895935-1', 'sc-melchtal.ch');
+			ga('send', 'pageview');
+
+		</script>
+	</head>
+
+	<body ng-controller="EventController as evCtrl">
+
+		<div id="boundingbox">
+
+			<div id="titlegraph">
+				<img src="scm_ptitle1.png" width="215" height="215" alt="" />
+			</div>
+
+			<div id="top">
+				<div id="topscmtext">
+					Ski- und Wanderclub Melchtal
+				</div>
+				<div id="topmenu">
+					<table width="460" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td style="width: 92px; text-align: center;"><a href="index.html">HOME</a></td>
+							<td style="width: 92px; text-align: center;"><a href="gallerie.html">FOTOS</a></td>
+							<td style="width: 92px; text-align: center;"><a href="a090.html">ARCHIV</a></td>
+							<td style="width: 92px; text-align: center;"><a href="a030.html">LINKS</a></td>
+							<td style="width: 92px; text-align: center;"><a href="a040.html">KONTAKT</a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+			<div id="main">
+				<div id="toptitle">
+					Winter-Programm 2017
+				</div>
+				<div id="menu">
+					<div id="nav">
+						<ul>
+							<li>
+								<a href="index.html"><span class="navdot">&#8226;&nbsp;</span>Home</a>
+							</li>
+							<li>
+								<a href="jahresprogramm.html" class="active"><span class="navdot">&#8226;&nbsp;</span>Programm</a>
+							</li>
+							<li>
+								<a href="a060.html"><span class="navdot">&#8226;&nbsp;</span>JO</a>
+							</li>
+							<li>
+								<a href="vorstand.html"><span class="navdot">&#8226;&nbsp;</span>Vorstand</a>
+							</li>
+							<li>
+								<a href="a080.html"><span class="navdot">&#8226;&nbsp;</span>Oberwend</a>
+							</li>
+						</ul>
+					</div>
+
+					<p>
+						&nbsp;
+						<br />
+						&nbsp;
+					</p>
+					<div id="menutxt1">
+					zum Drucken:<br />
+					<a id="2017_jahresprogramm_winter" href="" type="application/pdf">Winterprogramm 2017</a>
+					</div>
+				</div>
+				
+				<div ng-repeat="event in events" id="text">
+					<hr style="margin-bottom: 6px;" />
+					<div id="event_dates">
+						<div id="event_from">{{event.date_from | date : 'fullDate'}}</div>
+						<div id="event_to">
+					 		<span ng-show="{{event.date_to}}"> - {{event.date_to | date : 'fullDate'}}</span>
+						</div>
+					</div>
+					<div id="event_title">{{event.title}}</div>
+					<p ng-bind-html="event.description">
+						
+					</p>
+					<!--div>{{event.contact}}</div-->
+				</div>
+			</div>
+
+			<div id="foot">
+				<div id="footgraph">
+					<img src="scm-logo.png" width="207" height="200" alt="" />
+				</div>
+			</div>
+
+		</div>
+
+	</body>
+	<script type="text/javascript" src="js/tracking.js"></script>
+	<script type="text/javascript" src="https://code.angularjs.org/1.2.26/angular-sanitize.js"></script>
+	<script type="text/javascript" src="https://code.angularjs.org/1.2.26/i18n/angular-locale_de-ch.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</html>

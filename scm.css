@@ -1,0 +1,260 @@
+/* Achtung bei �nderungen von ul, li - wird f�r Navigation aktiv */
+* {
+	padding:0; /* Abst�nde entfernen, Opera hack */
+	margin:0;
+}
+
+body {
+	background: #222;
+	text-align: center;
+}
+
+hr {
+	background: white;
+	border: 0;
+	height: 1px;
+}
+
+img { border: none; vertical-align: bottom; /* wegen vertikaler L�cke bei STRICT */ }
+
+#boundingbox {
+	position: absolute;
+	top: 50px;
+	width: 760px;
+	left: 50%;
+	margin-left: -380px; /* centers a 760px _container_ */
+	text-align: left;
+	font:13px/20px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#titlegraph {
+	position: absolute;
+	top: -30px;
+	left: -30px;
+}
+
+#top {
+	width: 760px;
+	height: 130px;
+	background-image: url(scm-p1.png);
+	background-repeat: no-repeat;
+}
+#topscmtext {
+	position: absolute;
+	margin-left: 224px;
+	margin-top: 30px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+#topmenu {
+	position: absolute;
+	margin-left: 244px;
+	width: 460px;
+	margin-top: 100px;
+	color: #cfe0ef;
+	font-size: 12px;
+	font-weight: bold;
+}
+#topmenu a {
+	text-decoration:none;
+	color: #cfe0ef;
+}
+#topmenu a:hover {
+	text-decoration: underline;
+}
+
+#toptitle {
+	height: 60px;
+	padding-left: 222px;
+	padding-top: 25px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#main {
+	width: 760px;
+	background-image: url(scm-p2.png);
+	background-repeat: repeat-y;
+	color: #222;
+	background-color: #fff;
+}
+
+#menu {
+	float: left;
+	padding-left: 25px;
+	width: 160px;
+	/* border: 1px solid Yellow; */
+}
+
+.menu {
+	width: 460px;
+	border: 0px;
+	border-collapse: collapse;
+}
+
+.menu td {
+	padding:0;
+}
+
+#menu #menutxt {
+	margin: 35px 0 0 5px;
+	/* border: 1px solid Yellow; */
+}
+#menu #menutxt1 {
+	margin: 3px 0 0 5px;
+	padding: 5px 2px 10px 5px;;
+	background-color: #DDD;
+	/* border: 1px solid Yellow; */
+}
+
+#text {
+	margin-left: 222px;
+	margin-right: 35px;
+	padding-top: 6px;
+	padding-bottom: 80px;
+}
+
+#foot {
+	width: 760px;
+	height: 50px;
+	background-image: url(scm-p3.png);
+	background-repeat: no-repeat;
+}
+
+#footgraph {
+	position: relative;
+	top: -45px;
+	left: 612px;
+	width: 200px;
+}
+
+#home_news {
+	padding-bottom: 30px;
+}
+
+#hometop {
+	
+}
+
+#homeleft {
+	float: left;
+	width: 240px;
+}
+#homeleft li {
+	padding-left: 0em;
+	margin-left: 1.5em;
+	margin-top: 3px;
+	line-height: normal;
+}
+
+#homeright {
+	float: right;
+	width: 240px;
+}
+
+.col_left {
+	float: left;
+	width: 240px;
+}
+.col_right {
+	float: right;
+	width: 240px;
+}
+
+.col_left img {
+	width: 240px;
+}
+
+.col_double {
+	float: left;
+	width: 480px;
+}
+
+.col_double img {
+	width: 480px;
+}
+
+#nav {
+	font-size:13px;
+	font-weight: bold;
+	width:145px;
+}
+#nav ul {
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+#nav li {
+	margin-top:6px;
+	padding:0px;
+}
+.navdot {
+	font-weight: bold;
+	color: #999;
+}
+#nav a {
+	margin:0 0 0 5px;
+	padding:3px 3px 3px 4px;
+	text-decoration:none;
+	background:#58a;
+	color: #fff;
+	display:block;
+	border-top:1px solid #cfe0ef;
+	border-right:1px solid #23496b;
+	border-bottom:1px solid #23496b;
+	border-left:1px solid #e4d9c0;
+	width:145px;
+}
+#nav a:hover {
+	color:#cfe0ef;
+	background:#427ebd;
+	border-top:1px solid #cfe0ef;
+	border-right:1px solid #23496b;
+	border-bottom:1px solid #23496b;
+	border-left:1px solid #e4d9c0;
+}
+#nav .active {
+	color:#cfe0ef; 
+	background:#427ebd;
+}
+
+.comment {
+	color: #FF4500;
+	font-weight: bolder;
+}
+
+.fieldwith {
+	width: 412px;
+	margin-bottom: 3px;
+}
+
+.phborder {
+	border-right: 1px solid #006;
+	border-bottom: 1px solid #006;
+}
+
+.thumbr {
+	float: right;
+	margin-top: 2px;
+	margin-left: 5px;
+	border-top: 0;
+	border-left: 0px;
+	border-right: 1px solid #006;
+	border-bottom: 1px solid #006;
+}
+
+.label1 {
+	font-weight: bold;
+	color: #000;
+	background-color: #DDD;
+	padding: 2px;
+}
+.smallfont {
+	padding-top: 3px;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.carousel-img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
