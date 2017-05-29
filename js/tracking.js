@@ -70,3 +70,9 @@ $('#rangliste_schuelerrennen_2017').click(function() {
     window.open('dokumente/2017_SC_Melchtal_Rangliste_Kinderrennen.pdf', '_blank');
     return false;
 });
+// 2017_jahresprogramm_sommer
+$('#2017_jahresprogramm_sommer').click(function() {
+    ga('send', 'event', 'link', 'download', '2017_jahresprogramm_sommer');
+    window.open('dokumente/2017_jahresprogramm_sommer.pdf', '_blank');
+    return false;
+});

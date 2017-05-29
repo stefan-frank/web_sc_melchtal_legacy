@@ -258,3 +258,7 @@ img { border: none; vertical-align: bottom; /* wegen vertikaler L�cke bei STRI
     margin-left: 10px;
     margin-right: 10px;
 }
+td {
+    vertical-align: top;
+    padding-right: 10px;
+}
