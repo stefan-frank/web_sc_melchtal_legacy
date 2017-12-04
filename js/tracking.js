@@ -76,3 +76,9 @@ $('#2017_jahresprogramm_sommer').click(function() {
     window.open('dokumente/2017_jahresprogramm_sommer.pdf', '_blank');
     return false;
 });
+// 2018_jahresprogramm_winter.pdf
+$('#2018_jahresprogramm_winter').click(function() {
+    ga('send', 'event', 'link', 'download', '2018_jahresprogramm_winter');
+    window.open('dokumente/2018_jahresprogramm_winter.pdf', '_blank');
+    return false;
+});

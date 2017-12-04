@@ -1,29 +1,43 @@
 {
   "events": [
     {
-      "date_from": "2017-06-09",
-      "title": "Minigolf",
-      "description": "Treffpunkt Minigolf Sarnen, 19:00 Uhr<br/><b>Kontaktperson</b><br/>Pia Rohrer Tel. 078 820 98 63"
+      "date_from": "2017-12-09",
+      "title": "Jahresgedächtnis + Jassen",
+      "description": "19.30 Uhr in der Pfarrkirche Melchtal<br/>anschliessend Jassabend im Restaurant Nünalp<br/>„Startgeld“ CHF 10.-- mitbringen<br/><b>Preise werden organisiert</b>"
     },
     {
-      "date_from": "2017-07-02",
-      "title": "Picknick im Fluemätteli",
-      "description": "bei schlechtem Wetter im Jägerhüttli; Sagenmatt<br/>ab 11:00 Uhr<br/>für Verpflegung ist gesorgt<br/><b>Kontaktperson</b><br/>Marco Omlin Tel. 079 311 01 28"
+      "date_from": "2018-01-13",
+      "title": "Schneeschuhlaufen Cheselen mit Nachtessen",
+      "description": "Treffpunkt: 18.00 Uhr Stöckalp<br/>Anmeldung bis 08. Januar 2018 bei Pia Rohrer 078 820 98 63"
     },
     {
-      "date_from": "2017-08-20",
-      "title": "Seilpark Stöckalp",
-      "description": "<table><tr><td>Treffpunkt:</td><td>10:15 Uhr vor der Talstation Stöckalp</td></tr><tr><td>Voraussetzungen:</td><td>Mind. 1.20 Meter gross und 6 Jahre alt (Kinderparcours ab 4 Jahre)</td></tr><tr><td>Kosten:</td><td>ca 35 CHF (Beteiligung durch Skiclub)</td></tr></table>Anschliessend besteht die Möglichkeit zum Picknicken bei der Feuerstelle. Die Verpflegung muss selbst mitgenommen werden.<br/><br/><b>Auskunft und Anmeldung bis Montag, 14. August</b><br/>Bei Pia Rohrer Tel. 078 820 98 63"
+      "date_from": "2018-01-25",
+      "date_to" : "2018-01-26",
+      "title": "Europa-Cup Damen",
+      "description": "Helfer gesucht, Anmeldung bei Bärti von Rotz 079 358 55 76<br/>oder <a href='mailto:albertvonrotz@hotmail.com'>albertvonrotz@hotmail.com</a><br/>Donnerstag „Tagrennen“, Freitag, „Abendrennen“"
     },
     {
-      "date_from": "2017-09-10",
-      "title": "O-Tour Helfereinsatz",
-      "description": "(Einsatzdauer ca. 6:30 Uhr bis Mittag)<br/>Anmeldung sobald als möglich<br/><br/><b>Auskunft und Anmeldung:</b><br/>Bärti von Rotz Tel. 079 358 55 76"
+      "date_from": "2018-03-04",
+      "title": "Gemeinsame Teilnahme am Plauschrennen Famigros in Airolo",
+      "description": "Siehe <a href='www.famigros-ski-day.ch'>www.famigros-ski-day.ch</a>. Jede Familie meldet sich am<br/>01. Dezember 2017 online selbst an. Die Anmeldung am gleichen Tag ist<br/>sinnvoll, damit wir die Startplätze beieinander haben.<br/>Auskunft bei Romy Affentranger Reinhard Tel. 041 661 12 27 oder<br/>079 771 54 64"
     },
     {
-      "date_from": "2017-09-24",
-      "title": "Vier-Seen-Wanderung Frutt - Engelberg",
-      "description": "Treffpunkt 08:15 Uhr vor der Talstation Stöckalp<br/><table><tr><td>Mitbringen:</td><td>Angepasste Kleidung, Zwischenverpflegung</td></tr><tr><td>Kosten:</td><td>max. CHF 33.80 p.P. (Rundreiseticket Halbtax-Abo),<br/>Kinder mit Juniorkarte gratis<br/>Jahreskarte und Halbtax nicht vergessen!</td></tr><tr><td>Grillieren:</td><td>auf dem Camping Eienwädli, (organisiert und offertiert vom Club)</td></tr></table><br/><b>Auskunft und Anmeldung bis Mittwoch, 20. September</b><br/>Romy Affentranger Reinhard Tel. 041 661 12 27"
+      "date_from": "2018-03-18",
+      "title": "Stöckli Derby Melchsee-Frutt"
+    },
+    {
+      "date_from": "2018-03-24",
+      "title": "Skiclub-Rennen + Schülerrennen",
+      "description": "<table><tr><td>Rennen:</td><td>Piste Vogelbüel, Start 11.00 Uhr</td></tr><tr><td>Startnr.-Ausgabe:</td><td>Rest. Posthuis, 9.00 Uhr – 10.00 Uhr</td></tr><tr><td>Startgeld:</td><td>Erwachsene CHF 10.--, Kinder gratis</td></tr><tr><td>Rangverkündigung:</td><td>Rest. Posthuis, 15.00 Uhr</td></tr></table>"
+    },
+    {
+      "date_from": "2018-03-31",
+      "title": "Boni Derby",
+      "description": "Treffpunkt; 16.00 Uhr, Bonistock"
+    },
+    {
+      "date_from": "2018-05-04",
+      "title": "Generalversammlung im Restaurant Nünalp"
     }
   ]
 }
