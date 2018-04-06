@@ -82,3 +82,15 @@ $('#2018_jahresprogramm_winter').click(function() {
     window.open('dokumente/2018_jahresprogramm_winter.pdf', '_blank');
     return false;
 });
+// rangliste_clubrennen_2018
+$('#rangliste_clubrennen_2018').click(function() {
+    ga('send', 'event', 'link', 'download', 'rangliste_clubrennen_2018');
+    window.open('dokumente/2018_SC_Melchtal_Rangliste_Klubrennen.pdf', '_blank');
+    return false;
+});
+// rangliste_schuelerrennen_2018
+$('#rangliste_schuelerrennen_2018').click(function() {
+    ga('send', 'event', 'link', 'download', 'rangliste_schuelerrennen_2018');
+    window.open('dokumente/2018_SC_Melchtal_Rangliste_Kinderrennen.pdf', '_blank');
+    return false;
+});

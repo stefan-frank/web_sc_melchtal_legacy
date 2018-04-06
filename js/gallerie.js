@@ -20,7 +20,7 @@ var colorboxConfig = {
 
 
 $(document).ready(function() {
-	var currentYear = 2017;
+	var currentYear = 2018;
 	var oldestYear = 1978;
 	
 	for (year = currentYear; currentYear >= oldestYear; currentYear--) {
